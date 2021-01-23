@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-41">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-41"/>
+  <activeNode nodeId="node-45"/>
   <item nodeId="node-41">
     <command xml:space="preserve">The Cafe</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">What is your name? &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+      <child nodeId="node-43"/>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;Conversation Start!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">Amanda</command>
+    <result xml:space="preserve">Hi, Amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">Amanda H</command>
+    <result xml:space="preserve">It's okay, we're on a first name basis. What's just your first name?&#x000A;&#x000A;What is your name? &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">Amanda</command>
+    <result xml:space="preserve">Hi, Amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
