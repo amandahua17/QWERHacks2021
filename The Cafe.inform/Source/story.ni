@@ -153,9 +153,38 @@ The Cafe is a direction. The opposite of the Cafe is the bathroom. ]
 
 Part 2 - At Home
 
-Apartment is a scene. Apartment begins when Conversation ends.
+A person can be ready to talk or not ready to talk. The player is not ready to talk.
+
+Bedroom is a room. "You stand in your bedroom. Your roommate, Nik, is lying on your covers, fidgeting with something in their hands. Maybe you should talk to them about the girl you met at the cafe? Or about your interview? A lot has happened today."
+A bed is here. 
+A desk is here. 
+A spinny chair is here. 
+A dresser is here. 
+
+Apartment is a scene. Apartment begins when Conversation ends. When Apartment begins, now the player is in the bedroom.
+
+Nik is a person in the bedroom. 
+
+
+Bathroom is a room.
+A sink, toilet, bathtub, and cabinet are in the bathroom.
+
+your closet is in bedroom.
+A shoe rack is in your closet.
+Instead of going your closet: try going inside. 
+Instead of going inside: say "What would I want to go back in there for? Just kidding, but I've got all the clothes I need at the moment."
+
+Kitchen is a room. 
+A kitchen sink, stove, oven, fridge, and pantry are in the kitchen.
+
+Nik's bedroom is a room.
+Instead of going Nik's bedroom: say "That's Nik's room. They don't like it when I go in there without them. Better not."
+
+Instead of talking Nik about something: now the player is ready to talk.
 
 [Apartment scene can be used to explore the apartment. Conversation2 starts when exploring ends.]
+
+Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk.
 
 
 Part 3 - Searching for Sage
