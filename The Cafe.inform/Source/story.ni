@@ -241,8 +241,9 @@ Instead of returning for the first time:
 	say "I walked by, but Sage wasn't working. I hope I didn't miss my only chance."
 
 Instead of returning for the second time:
-	say "I've got a good feeling about today.";
-	now the player is in The Cafe;
+	say "I've got a good feeling about today. [paragraph break]
+	Sure enough, you see Sage standing at the counter, their smile lighting up the room.";
+	[now the player is in The Cafe;]
 	now the player is excited;
 
 Date is a scene. Date begins when Wait ends. 
@@ -252,6 +253,7 @@ When Date begins:
 	say "Building up your courage, you ask Sage if she'd like to go out sometime. To your delight, she tells you that she gets off shift in a few minutes, and knows a park nearby.";
 	now player is in Park;
 	now Sage is in Park;
+	now Sage is passive.
 
 Table of Date
 topic	reply	quip
@@ -269,6 +271,12 @@ topic	reply	quip
 ‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
 	
 
+[Instead of doing anything except talking or telling when Date is happening: 
+	say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"]
+	
+Instead of telling Sage about something: try asking the noun about it. 
+Instead of talking Sage about something: try asking the noun about it. 
+
 Instead of asking Sage about a topic listed in the Table of Date when Date is happening: 
 	now Sage is passive; 
 	say "[reply entry][paragraph break]"; 
@@ -281,4 +289,4 @@ Every turn during Date:
 			blank out the whole row; 
 			make no decision. 
 
-Every turn during Date: now Sage is active. Date ends when the number of filled rows in the Table of Date is 0. When Date ends, say "Your phone pings, and you pull it out of your pocket. It's an email alert: you landed the big scholarship you applied to. It feels like all the pieces are falling into place. You smile and tell Sage, 'I think I've made my decision. Grad school sounds really good. And I can't turn down everything else about Seattle.' They reply, smiling, 'Well then, I've got a lot to show you.'"
+Every turn during Date: now Sage is active. Date ends when the number of filled rows in the Table of Date is 0. When Date ends, say "Your phone pings, and you pull it out of your pocket. It's an email alert: you landed the big scholarship you applied to. It feels like all the pieces are falling into place. You smile and tell Sage, 'I think I've made my decision. Grad school sounds really good. And I can't turn down everything else about Seattle.' They reply, smiling, 'Well then, I've got a lot to show you.'[paragraph break] The end. "
