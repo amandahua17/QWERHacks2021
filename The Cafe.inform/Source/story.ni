@@ -100,13 +100,14 @@ Instead of buying sandwiches:
 Talking it about is an action applying to one thing and one topic.
 Understand "talk to [someone] about [text]" or "talk [someone] about [text]" as talking it about.
 A scene can be restricted or free. 
-Instead of doing anything except talking or telling when a restricted scene is happening: 
-	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe..."
 	
 [Instead of talking when a restricted scene is happening:
 	say "'Hi, my name is [player's name]. I was wondering if I could join you?'"]
 
 Conversation is a restricted scene. Conversation begins when the player is embarrassed. When Conversation begins, say "The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. 'Mind if I sit with you?' They look up and smile. Your heart flips in anticipation. 'Sure! I'm not going anywhere.'"
+
+Instead of doing anything except talking or telling when a Conversation is happening: 
+	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe..."
 
 Table of Conversation 
 topic	reply	quip
@@ -123,7 +124,7 @@ Sage laughs. 'It's not too bad, just takes some getting used to.'"	"'If you're n
 Instead of telling Sage about something: try asking the noun about it. 
 Instead of talking Sage about something: try asking the noun about it. 
 
-Instead of asking Sage about a topic listed in the Table of Conversation: 
+Instead of asking Sage about a topic listed in the Table of Conversation when Conversation is happening: 
 	now Sage is passive; 
 	say "[reply entry][paragraph break]"; 
 	blank out the whole row.  
@@ -137,7 +138,7 @@ Every turn during Conversation:
 			blank out the whole row; 
 			make no decision. 
 
-Every turn: now Sage is active. 
+Every turn during Conversation: now Sage is active. 
 
 
 [Every turn during Conversation, instead of doing anything except talking with laptop, say "You really only have two options here: stare at your screen, or talk to Sage."]
@@ -164,8 +165,9 @@ A dresser is here.
 Apartment is a scene. Apartment begins when Conversation ends. When Apartment begins, now the player is in the bedroom.
 your closet is in bedroom.
 A shoe rack is in your closet.
+
 Instead of going your closet: try going inside. 
-Instead of going inside: say "What would I want to go back in there for? Just kidding, but I've got all the clothes I need at the moment."
+Instead of going inside when Apartment is happening: say "What would I want to go back in there for? Just kidding, but I've got all the clothes I need at the moment."
 Nik is a person in the bedroom. 
 [TODO: figure out how to put player's name as an option, and also why everything is passive]
 
@@ -189,16 +191,20 @@ A kitchen sink, stove, oven, fridge, and pantry are in the kitchen.
 Nik's bedroom is a room.
 Instead of going Nik's bedroom: say "That's Nik's room. They don't like it when I go in there without them. Better not."]
 
-Instead of talking Nik about something: now the player is ready to talk.
-
 [Apartment scene can be used to explore the apartment. Conversation2 starts when exploring ends.]
+
 
 Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk. When Conversation2 begins, say "'Hi Nik. Whatcha doing on my bed?' They grin. 'Oh, you know, just seeing what your new crisis is about.' You scowl. I suppose you should probably try to talk to him about something."
 
-Instead of talking Nik about something: try asking the noun about it.
-Instead of telling Nik about something: try asking the noun about it.
+Instead of doing anything except talking or telling when a Conversation2 is happening: 
+	say "Maybe you should ask Nik about something? They are pretty talkative, though, so maybe they'll talk on their own. You could ask them about the cute person you met today, or their day, or your interview..."
 
-Instead of asking Nik about a topic listed in the Table of Roommate: 
+Instead of telling Nik about something: try asking the noun about it.
+Instead of talking Nik about something: 
+	try asking the noun about it;
+	now the player is ready to talk.
+
+Instead of asking Nik about a topic listed in the Table of Roommate when Conversation2 is happening: 
 	now Nik is passive; 
 	say "[reply entry][paragraph break]"; 
 	blank out the whole row.  
@@ -263,7 +269,7 @@ topic	reply	quip
 ‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
 	
 
-Instead of asking Sage about a topic listed in the Table of Date: 
+Instead of asking Sage about a topic listed in the Table of Date when Date is happening: 
 	now Sage is passive; 
 	say "[reply entry][paragraph break]"; 
 	blank out the whole row.  
