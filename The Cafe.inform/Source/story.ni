@@ -31,9 +31,9 @@ Rule for constructing the status line when collecting names: do nothing.
 
 Part 1 - The Cafe
 
-The Cafe is a room. "A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say 'go inside'."
+The Seeds Cafe is a room. "A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say 'go inside'."
 
-Sage is a person in the Cafe.
+Sage is a person in the Seeds Cafe.
 
 The player carries a backpack. The backpack is openable and closed. The backpack contains a laptop.
 A person can be confident, nervous, excited, or embarrassed. A person can be active or passive. The player is confident.
@@ -143,7 +143,7 @@ Every turn during Conversation: now Sage is active.
 
 [Every turn during Conversation, instead of doing anything except talking with laptop, say "You really only have two options here: stare at your screen, or talk to Sage."]
 
-Inside from the Cafe is the All Gender Bathroom.	[right now, command is go inside] 
+Inside from the Seeds Cafe is the All Gender Bathroom.	[right now, command is go inside] 
 A mirror is in the bathroom.
 A sink is in the bathroom. 
 A toilet is in the bathroom. 
@@ -194,15 +194,20 @@ Instead of going Nik's bedroom: say "That's Nik's room. They don't like it when 
 [Apartment scene can be used to explore the apartment. Conversation2 starts when exploring ends.]
 
 
-Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk. When Conversation2 begins, say "'Hi Nik. Whatcha doing on my bed?' They grin. 'Oh, you know, just seeing what your new crisis is about.' You scowl. I suppose you should probably try to talk to him about something."
+Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk. When Conversation2 begins, say "'Hi Nik. Whatcha doing on my bed?' They grin. 'Oh, you know, just seeing what your new crisis is about.' You scowl. You suppose you should probably try to talk to him about something."
 
 Instead of doing anything except talking or telling when a Conversation2 is happening: 
 	say "Maybe you should ask Nik about something? They are pretty talkative, though, so maybe they'll talk on their own. You could ask them about the cute person you met today, or their day, or your interview..."
 
+Starting conversation is an action applying to one thing.
+Understand "start conversation with [someone]" as starting conversation.
+Instead of starting conversation:
+	now the player is ready to talk.
+
 Instead of telling Nik about something: try asking the noun about it.
 Instead of talking Nik about something: 
-	try asking the noun about it;
-	now the player is ready to talk.
+	try asking the noun about it. [;
+	now the player is ready to talk.]
 
 Instead of asking Nik about a topic listed in the Table of Roommate when Conversation2 is happening: 
 	now Nik is passive; 
@@ -228,20 +233,20 @@ Wait is a scene. Wait begins when Conversation2 [will change to Conversation2] e
 Wait ends when the player is excited. 
 
 Every turn during Wait:
-	say "It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new."
+	say "It's a new day, full of possibility. Maybe you should go to the cafe and see if Sage is there. Or you could explore somewhere new."
 	
 Exploring is an action applying to nothing.
 Understand "somewhere new" or "new" or "explore" as exploring.
 Instead of exploring:
-	say "I tried out a new place. It was fine, but nothing special. Maybe I'll go back to Seeds tomorrow."
+	say "You tried out a new place. It was fine, but nothing special. Maybe you can go back to Seeds tomorrow."
 	
 Returning is an action applying to nothing.
 Understand "cafe" or "go cafe" or "go to cafe" or "go to the cafe" as returning.
 Instead of returning for the first time:
-	say "I walked by, but Sage wasn't working. I hope I didn't miss my only chance."
+	say "You walked by, but Sage wasn't working. You hope you didn't miss your only chance."
 
 Instead of returning for the second time:
-	say "I've got a good feeling about today. [paragraph break]
+	say "You've got a good feeling about today. [paragraph break]
 	Sure enough, you see Sage standing at the counter, their smile lighting up the room.";
 	[now the player is in The Cafe;]
 	now the player is excited;
@@ -270,9 +275,10 @@ topic	reply	quip
 
 ‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
 	
-
-[Instead of doing anything except talking or telling when Date is happening: 
-	say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"]
+[TODO: Figure out why park heading isn't working]
+Instead of doing anything except talking or telling when Date is happening except during first turn: 
+	if Sage is passive: 
+		say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"
 	
 Instead of telling Sage about something: try asking the noun about it. 
 Instead of talking Sage about something: try asking the noun about it. 
