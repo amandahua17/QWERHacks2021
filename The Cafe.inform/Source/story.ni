@@ -110,7 +110,7 @@ Conversation is a restricted scene. Conversation begins when the player is embar
 
 Table of Conversation 
 topic	reply	quip
-"day/cafe/what's up"	"'So how's your day going? Did you just get off shift?' 'Yep! I have about half an hour to kill before another engagement. The day's been up and down, customer-wise, so I'm getting off my feet for a bit.' The word 'engagement' makes your heart jump a little. "	"'You new around here? I don’t think I've seen you before.' You shrug. 'Just got to Seattle yesterday, been looking around since then.'"
+"day/cafe" or "what's up"	"'So how's your day going? Did you just get off shift?' 'Yep! I have about half an hour to kill before another engagement. The day's been up and down, customer-wise, so I'm getting off my feet for a bit.' The word 'engagement' makes your heart jump a little. "	"'You new around here? I don’t think I've seen you before.' You shrug. 'Just got to Seattle yesterday, been looking around since then.'"
 "gay/queer/pronouns"	"'So,' you say. 'This might be a bit forward, but what are your pronouns? And are you gay?' The last part slips out before you can stop yourself. You flush. 'I, er,' they say. 'I use she/they pronouns, thanks for asking!' They smile at you. 'And yes, I listen to Girl in Red. What gave it away? Was it the giant dangly earrings?' You laugh. 'No, just the bangs and blue hair.'"	"After a moment of silence, Sage says, 'I like your septum piercing!' You feel your face grow hot. 'Thanks,' you say, but nothing else comes to mind."
 "location/Seattle/Washington"	"'Are you from Seattle originally?’ you ask.
 
@@ -162,34 +162,62 @@ A spinny chair is here.
 A dresser is here. 
 
 Apartment is a scene. Apartment begins when Conversation ends. When Apartment begins, now the player is in the bedroom.
-
-Nik is a person in the bedroom. 
-
-
-Bathroom is a room.
-A sink, toilet, bathtub, and cabinet are in the bathroom.
-
 your closet is in bedroom.
 A shoe rack is in your closet.
 Instead of going your closet: try going inside. 
 Instead of going inside: say "What would I want to go back in there for? Just kidding, but I've got all the clothes I need at the moment."
+Nik is a person in the bedroom. 
+[TODO: figure out how to put player's name as an option, and also why everything is passive]
+
+Table of Roommate
+topic	reply	quip
+"new person" or "cute person"	"‘So, I met this person today at the cafe… they’re really sweet, and totally my type. And get this - they’re possibly going to UW for grad school!’ Nik looks up, startled. ‘Really? I bet your mind is going out of control planning your wedding already!’ You snort. ‘Just because we might be going to the same school and I think they’re cute doesn’t mean we’re soulmates. Still… the UW CS program is really good. Doesn’t hurt to have someone with shared interests.’"	"‘Oh come on.’ Nik is staring at you. ‘I know you only have that look when something interesting has happened. Spill!’
+
+You sigh. ‘I met this really cute person at the cafe today… and-they-might-be-going-to-grad-school-at-UW!’ The last part all comes out at once. Nik raises his eyebrows. ‘Not too shabby. Sounds like a perfect person for a date?’ They smirk at their last comment."
+"their day" or "what's new"	"‘What’s up with you? Any new adventures?’ Nik sighs. ‘Not really, Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’"	"Nik sighs. ‘Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’ He narrows his eyes at you. ‘I’ll be your wingperson, but only if I happen to be free.’ They stick out their tongue and sigh again."
+"advice/anticipation/excitement" or "first date"	"‘I really hope this person comes back to the cafe, they seem so easy to talk to!’ Nik looks at you, smirking again. ‘I hope it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’"	"Nik looks at you, smirking again. ‘Well anyway, I hope this new person you’re brooding over asks you on a date and it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’
+"
+"interview"	"‘So the interview today went well. I still think I might want to go to grad school though… That person today and UW’s CS program. A lot to think about.’ Nik looks at you out of the corner of their eye. ‘Just make sure you don’t make a decision based on a person you haven’t even gone on a date with yet.’ ‘I know! I know...’"	"‘So how was the interview?’, Nik asks, throwing the fidget cube up in the air. ‘Oh, it was good. I still think I might want to go to grad school though… That person today and UW’s CS program. A lot to think about.’ Nik looks at you out of the corner of their eye. ‘Just make sure you don’t make a decision based on a person you haven’t even gone on a date with yet.’ ‘I know! I know...’"
+
+
+[Bathroom is a room.
+A sink, toilet, bathtub, and cabinet are in the bathroom.
 
 Kitchen is a room. 
 A kitchen sink, stove, oven, fridge, and pantry are in the kitchen.
 
 Nik's bedroom is a room.
-Instead of going Nik's bedroom: say "That's Nik's room. They don't like it when I go in there without them. Better not."
+Instead of going Nik's bedroom: say "That's Nik's room. They don't like it when I go in there without them. Better not."]
 
 Instead of talking Nik about something: now the player is ready to talk.
 
 [Apartment scene can be used to explore the apartment. Conversation2 starts when exploring ends.]
 
-Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk.
+Conversation2 is a restricted scene. Conversation2 begins when the player is ready to talk. When Conversation2 begins, say "'Hi Nik. Whatcha doing on my bed?' They grin. 'Oh, you know, just seeing what your new crisis is about.' You scowl. I suppose you should probably try to talk to him about something."
+
+Instead of talking Nik about something: try asking the noun about it.
+Instead of telling Nik about something: try asking the noun about it.
+
+Instead of asking Nik about a topic listed in the Table of Roommate: 
+	now Nik is passive; 
+	say "[reply entry][paragraph break]"; 
+	blank out the whole row.  
+
+Every turn during Conversation2: 
+	if Nik is active: 
+		repeat through Table of Roommate: 
+			say "[quip entry][paragraph break]"; 
+			blank out the whole row; 
+			make no decision. 
+
+Every turn during Conversation2: now Nik is active. Conversation2 ends when the number of filled rows in the Table of Roommate is 0. When Conversation2 ends, say "Nik shoots up at a whistle from their phone. 'Sorry, that might be Alice and Cal deciding what they want to do tomorrow. You might be on your own tomorrow. Good luck!' He sprints from the room, opening his phone as he goes."
+
 
 
 Part 3 - Searching for Sage
 
-Wait is a scene. Wait begins when Conversation [will change to Conversation2] ends.
+Intermission is a room.
+Wait is a scene. Wait begins when Conversation2 [will change to Conversation2] ends. When Wait begins, now the player is in Intermission.
 
 Wait ends when the player is excited. 
 
@@ -220,8 +248,20 @@ When Date begins:
 	now Sage is in Park;
 
 Table of Date
-[c/p table here]
+topic	reply	quip
+"family/childhood"	"‘You said you grew up in St. Louis? Do you have any siblings?’ ‘Yeah, I’m actually a triplet. My parents got two gays out of it - and we bully our token straight at every chance’"	"‘Not feeling talkative? That’s okay. We can just walk around the park quietly for a bit’"
+"goals/job/career/school/future"	"‘What does the future hold for you? Any grand visions?’ You ask. ‘I’m hoping to move into tech, which is why I recognized that rainbow Github sticker on your laptop.’ You almost laughed, it was a joke gift from a high school friend. ‘So I’m saving up for grad school and taking some online classes.’"	"‘Here, I’ll tell a story. My prom night was a wild ride. I really wanted a gay prom, but I was closeted at the time and my parents were so excited to see me go with a nice boy. So I took prom photos with a friend of mine, and then as soon as my mom left, we all shuffled around and I got to spend my prom night with my girlfriend at the time. It was great.’ We drift into silence for a minute, admiring nature as we walk. Eventually, you break the silence."
+"come out" or "coming out" or "support"	"‘Was your family supportive when you came out?’
 
+‘Y’know, I was the first gay person that my parents knew. I grew up pretty religious, and they weren’t exactly prepared for all this.’ They gestured vaguely. ‘But they just needed some time. We’re on pretty good terms these days.’"	"‘We got so lucky with the weather today - it’s so rarely this sunny. Any other day, you’d be the hottest thing in sight.’ The compliment was unexpected, but welcome."
+"zodiac/astrology"	"‘I have to ask the gay cliche - what’s your zodiac sign?’
+
+‘It’s embarrassing, but I actually don’t know anything other than my sun. I’m an Aquarius.’
+
+‘Oh that’s funny! I only ask because I dated someone in college who knew astrology inside and out’
+
+‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
+	
 
 Instead of asking Sage about a topic listed in the Table of Date: 
 	now Sage is passive; 
@@ -235,4 +275,4 @@ Every turn during Date:
 			blank out the whole row; 
 			make no decision. 
 
-Every turn: now Sage is active. Date ends when the number of filled rows in the Table of Date is 0. When Date ends, say "Your phone pings, and you pull it out of your pocket. It's an email alert: you landed the big scholarship you applied to. It feels like all the pieces are falling into place. You smile and tell Sage, 'I think I've made my decision. Grad school sounds really good. And I can't turn down everything else about Seattle.' They reply, smiling, 'Well then, I've got a lot to show you.'"
+Every turn during Date: now Sage is active. Date ends when the number of filled rows in the Table of Date is 0. When Date ends, say "Your phone pings, and you pull it out of your pocket. It's an email alert: you landed the big scholarship you applied to. It feels like all the pieces are falling into place. You smile and tell Sage, 'I think I've made my decision. Grad school sounds really good. And I can't turn down everything else about Seattle.' They reply, smiling, 'Well then, I've got a lot to show you.'"
