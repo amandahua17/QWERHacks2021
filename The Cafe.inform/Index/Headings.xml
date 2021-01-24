@@ -3,36 +3,36 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6M62</string>
     <key>0</key><dict>
-        <key>Filename</key><string>C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"The Cafe" by Amanda Hua and Lane Bohrer</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
         <key>Line</key><integer>3</integer>
         <key>Title</key><string>Part 0 - You</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
         <key>Line</key><integer>32</integer>
         <key>Title</key><string>Part 1 - The Cafe</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
-        <key>Line</key><integer>152</integer>
+        <key>Filename</key><string>C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
+        <key>Line</key><integer>154</integer>
         <key>Title</key><string>Part 2 - At Home</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
-        <key>Line</key><integer>159</integer>
+        <key>Filename</key><string>C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Source\story.ni</string>
+        <key>Line</key><integer>161</integer>
         <key>Title</key><string>Part 3 - Searching for Sage</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>

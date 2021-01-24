@@ -36,7 +36,7 @@ The Cafe is a room. "A barista stands humming behind the counter. Above the work
 Sage is a person in the Cafe.
 
 The player carries a backpack. The backpack is openable and closed. The backpack contains a laptop.
-A person can be confident, nervous, or embarrassed. A person can be active or passive. The player is confident.
+A person can be confident, nervous, excited, or embarrassed. A person can be active or passive. The player is confident.
 
 A table is here. "There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired."
 Instead of taking the table, say "You can't take a table..."
@@ -77,6 +77,7 @@ Instead of buying the iced coffee:
 	if the player is not carrying pastries and the player is not carrying sandwiches:
 		say "You go up to the counter and buy a drink. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
+Understand "pastry" as pastries.
 Instead of buying pastries:
 	if the player is carrying pastries or the player is carrying sandwiches:
 		say "You already bought food! This is gonna look a bit weird.";
@@ -86,6 +87,7 @@ Instead of buying pastries:
 	if the player is not carrying tea and the player is not carrying iced coffee:
 		say "You go up to the counter and buy a pastry. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
+Understand "sandwich" as sandwiches.
 Instead of buying sandwiches:
 	if the player is carrying pastries or the player is carrying sandwiches:
 		say "You already bought food! This is gonna look a bit weird.";
@@ -99,7 +101,7 @@ Talking it about is an action applying to one thing and one topic.
 Understand "talk to [someone] about [text]" or "talk [someone] about [text]" as talking it about.
 A scene can be restricted or free. 
 Instead of doing anything except talking or telling when a restricted scene is happening: 
-	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe..."
+	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe..."
 	
 [Instead of talking when a restricted scene is happening:
 	say "'Hi, my name is [player's name]. I was wondering if I could join you?'"]
@@ -110,7 +112,7 @@ Table of Conversation
 topic	reply	quip
 "day/cafe/what's up"	"'So how's your day going? Did you just get off shift?' 'Yep! I have about half an hour to kill before another engagement. The day's been up and down, customer-wise, so I'm getting off my feet for a bit.' The word 'engagement' makes your heart jump a little. "	"'You new around here? I don’t think I've seen you before.' You shrug. 'Just got to Seattle yesterday, been looking around since then.'"
 "gay/queer/pronouns"	"'So,' you say. 'This might be a bit forward, but what are your pronouns? And are you gay?' The last part slips out before you can stop yourself. You flush. 'I, er,' they say. 'I use she/they pronouns, thanks for asking!' They smile at you. 'And yes, I listen to Girl in Red. What gave it away? Was it the giant dangly earrings?' You laugh. 'No, just the bangs and blue hair.'"	"After a moment of silence, Sage says, 'I like your septum piercing!' You feel your face grow hot. 'Thanks,' you say, but nothing else comes to mind."
-"location"	"'Are you from Seattle originally?’ you ask.
+"location/Seattle/Washington"	"'Are you from Seattle originally?’ you ask.
 
 ‘Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring.' Note to self: they're around your age."	"'What brings you to Seeds?' Her eyes are really pretty. You give a start. Stop staring! 'I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself.'" 
 "weather/rain/cold"	"'Is the weather always like this here?' you ask. 'It seems like the only downside.'
@@ -126,7 +128,7 @@ Instead of asking Sage about a topic listed in the Table of Conversation:
 	say "[reply entry][paragraph break]"; 
 	blank out the whole row.  
 
-Conversation ends when the number of filled rows in the Table of Conversation is 0. When Conversation ends, say "'Oh shoot, I gotta go, I have an interview and I lost track of time!' She looks at you and grins. Your heart skips again. 'Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!' Before you can say anything else, they run out the door."
+Conversation ends when the number of filled rows in the Table of Conversation is 0. When Conversation ends, say "'Oh shoot, I gotta go, I have an interview and I lost track of time!' She looks at you and grins. Your heart skips again. 'Well, it was lovely to meet you! I'm sure we'll meet again.' Before you can say anything else, they run out the door."
 
 Every turn during Conversation: 
 	if Sage is active: 
@@ -157,4 +159,28 @@ Apartment is a scene. Apartment begins when Conversation ends.
 
 
 Part 3 - Searching for Sage
+
+Wait is a scene. Wait begins when Conversation [will change to Conversation2] ends.
+
+Wait ends when the player is excited. 
+
+Every turn during Wait:
+	say "It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new."
+	
+Exploring is an action applying to nothing.
+Understand "somewhere new" or "new" or "explore" as exploring.
+Instead of exploring:
+	say "I tried out a new place. It was fine, but nothing special. Maybe I'll go back to Seeds tomorrow."
+	
+Returning is an action applying to nothing.
+Understand "cafe" or "go cafe" or "go to cafe" or "go to the cafe" as returning.
+Instead of returning for the first time:
+	say "I walked by, but Sage wasn't working. I hope I didn't miss my only chance."
+
+Instead of returning for the second time:
+	say "I've got a good feeling about today.";
+	now the player is in The Cafe;
+	now the player is excited;
+
+Date is a scene. Date begins when Wait ends.
 

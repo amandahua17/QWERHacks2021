@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform"
-release to "C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.materials\Release"
+project folder "C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform"
+release to "C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Cafe.gblorb"
-storyfile "C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Build\output.ulx" include
-ifiction "C:\Users\Amanda Hua\inform_projects\QWERHacks2021\The Cafe.inform\Metadata.iFiction" include
+storyfile "C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Build\output.ulx" include
+ifiction "C:\Users\admin\Documents\GitHub\QWERHacks2021\The Cafe.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 

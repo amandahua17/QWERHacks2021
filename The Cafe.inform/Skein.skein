@@ -1,54 +1,514 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-41">
+<Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-93"/>
-  <item nodeId="node-41">
+  <activeNode nodeId="node-99"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">The Cafe</command>
     <result xml:space="preserve">What is your name? &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-42"/>
-      <child nodeId="node-43"/>
-      <child nodeId="node-44"/>
-      <child nodeId="node-46"/>
-      <child nodeId="node-52"/>
-      <child nodeId="node-55"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-39"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-47"/>
+      <child nodeId="node-50"/>
+      <child nodeId="node-54"/>
+      <child nodeId="node-67"/>
     </children>
   </item>
-  <item nodeId="node-42">
+  <item nodeId="node-2">
     <command xml:space="preserve">sit table</command>
     <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;Conversation Start!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
   </item>
-  <item nodeId="node-43">
+  <item nodeId="node-3">
     <command xml:space="preserve">Amanda</command>
     <result xml:space="preserve">Hi, Amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-59"/>
-      <child nodeId="node-75"/>
-      <child nodeId="node-87"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-32"/>
     </children>
   </item>
-  <item nodeId="node-59">
+  <item nodeId="node-4">
     <command xml:space="preserve">sit table</command>
     <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-5"/>
+      <child nodeId="node-11"/>
+      <child nodeId="node-20"/>
+      <child nodeId="node-21"/>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">take laptop</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">talk sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">talk Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">tell sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">tell Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">tell Sage about weather</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">talk to Sage about weather</command>
+    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">talk to sage</command>
+    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">tell sage about weather</command>
+    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">tell sage about location</command>
+    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">tell sage about day</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all.&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">talk to sage about weather</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">talk to Sage about weather</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">talk to Sage about location</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">buy pastries</command>
+    <result xml:space="preserve">You go up to the counter and buy a pastry. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">buy pastries</command>
+    <result xml:space="preserve">You already bought food!&#x000A;You go up to the counter and buy a pastry. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">talk to sage about weather</command>
+    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">talk to sage about weather</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;"Oh shoot, I gotta go, I have an interview and I lost track of time!" She looks at you and grins. Your heart skips again. "Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!" Before you can say anything else, they run out the door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">Amanda H</command>
+    <result xml:space="preserve">It's okay, we're on a first name basis. What's just your first name?&#x000A;&#x000A;What is your name? &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">Amanda</command>
+    <result xml:space="preserve">Hi, Amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">amanda</command>
+    <result xml:space="preserve">Hi, amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">talk to sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">talk to Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">am</command>
+    <result xml:space="preserve">Hi, am!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">talk Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">Hi, a!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">sit table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">talk Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">talk table</command>
+    <result xml:space="preserve">"Hi, my name is a. I was wondering if I could join you?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">lane</command>
+    <result xml:space="preserve">Hi, lane!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">sit at table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">talk to sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">talk sage</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to Sage)&#x000A;You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">weather's funny</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
       <child nodeId="node-60"/>
-      <child nodeId="node-66"/>
-      <child nodeId="node-74"/>
-      <child nodeId="node-81"/>
-      <child nodeId="node-85"/>
     </children>
   </item>
   <item nodeId="node-60">
-    <command xml:space="preserve">take laptop</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">weather</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -56,8 +516,8 @@
     </children>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say weather</command>
+    <result xml:space="preserve">(to Sage)&#x000A;You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -65,7 +525,7 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">talk sage</command>
+    <command xml:space="preserve">talk about jobs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -74,8 +534,8 @@
     </children>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">talk Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">cafe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -83,8 +543,8 @@
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say cafe</command>
+    <result xml:space="preserve">(to Sage)&#x000A;You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -92,42 +552,44 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-66">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Sage job</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-67"/>
-      <child nodeId="node-86"/>
+      <child nodeId="node-66"/>
     </children>
   </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">tell job to Sage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">Lane</command>
+    <result xml:space="preserve">Hi, Lane!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-68"/>
+      <child nodeId="node-74"/>
+      <child nodeId="node-87"/>
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">buy tea</command>
+    <result xml:space="preserve">You go up to the counter and buy a drink. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-69"/>
+      <child nodeId="node-85"/>
     </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">tell sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit down at table</command>
+    <result xml:space="preserve">You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -135,8 +597,8 @@
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">tell Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Sage hi</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -144,8 +606,8 @@
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell sage about day</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -153,8 +615,8 @@
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">help</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask sage about location</command>
+    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -162,65 +624,54 @@
     </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">tell Sage about weather</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-86">
-    <command xml:space="preserve">talk to Sage about weather</command>
-    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-74">
-    <command xml:space="preserve">talk to sage</command>
-    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-81">
-    <command xml:space="preserve">tell sage about weather</command>
-    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-82"/>
-    </children>
-  </item>
-  <item nodeId="node-82">
-    <command xml:space="preserve">tell sage about location</command>
-    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-83"/>
-    </children>
-  </item>
-  <item nodeId="node-83">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all.&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-84"/>
-    </children>
-  </item>
-  <item nodeId="node-84">
-    <command xml:space="preserve">tell sage about day</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all.&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to sage about cafe</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;"If you're not used to it, the Seattle weather can be a bit dreary," Sage remarks.&#x000A;&#x000A;"Oh shoot, I gotta go, I have an interview and I lost track of time!" She looks at you and grins. Your heart skips again. "Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!" Before you can say anything else, they run out the door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-85">
-    <command xml:space="preserve">talk to sage about weather</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit at table</command>
+    <result xml:space="preserve">You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">ask Sage about seattle</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve"> ask about Seattle</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">ask Sage about Seattle</command>
+    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">sit at table</command>
+    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">ask Sage about job</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe...&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -228,8 +679,8 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to Sage about gay</command>
+    <result xml:space="preserve">"So," you say. "This might be a bit forward, but what are your pronouns? And are you gay?" The last part slips out before you can stop yourself. You flush. "I, er," they say. "I use she/they pronouns, thanks for asking!" They smile at you. "And yes, I listen to Girl in Red. What gave it away? Was it the giant dangly earrings?" You laugh. "No, just the bangs and blue hair."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -237,8 +688,8 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Sage about weather</command>
+    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -246,8 +697,8 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">talk to Sage about weather</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Sage about location</command>
+    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;"Oh shoot, I gotta go, I have an interview and I lost track of time!" She looks at you and grins. Your heart skips again. "Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!" Before you can say anything else, they run out the door.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -255,8 +706,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">talk to Sage about location</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">somewhere new</command>
+    <result xml:space="preserve">I tried out a new place. It was fine, but nothing special. Maybe I'll go back to Seeds tomorrow.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -264,30 +715,68 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">"Hi, my name is Amanda. I was wondering if I could join you?"&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">cafe</command>
+    <result xml:space="preserve">I walked by, but Sage wasn't working. I hope I didn't miss my only chance.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">explore</command>
+    <result xml:space="preserve">I tried out a new place. It was fine, but nothing special. Maybe I'll go back to Seeds tomorrow.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">sage</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">go to the cafe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">go to cafe</command>
+    <result xml:space="preserve">I've got a good feeling about today.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-87">
-    <command xml:space="preserve">buy pastries</command>
-    <result xml:space="preserve">You go up to the counter and buy a pastry. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">buy sandwich</command>
+    <result xml:space="preserve">You go up to the counter and buy a sandwich. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-88"/>
-      <child nodeId="node-89"/>
     </children>
   </item>
   <item nodeId="node-88">
-    <command xml:space="preserve">buy pastries</command>
-    <result xml:space="preserve">You already bought food!&#x000A;You go up to the counter and buy a pastry. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">buy sandwiches</command>
+    <result xml:space="preserve">You already bought food! This is gonna look a bit weird.&#x000A;You go up to the counter and buy a sandwich. The barista with a nametag that says "Sage" smiles at you. You notice their grin is kinda cute.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
   </item>
   <item nodeId="node-89">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit down at booth</command>
+    <result xml:space="preserve">There are people there! You can't sit on them.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -295,8 +784,8 @@
     </children>
   </item>
   <item nodeId="node-90">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit at table</command>
+    <result xml:space="preserve">You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. "Mind if I sit with you?" They look up and smile. Your heart flips in anticipation. "Sure! I'm not going anywhere."&#x000A;&#x000A;"You new around here? I don't think I've seen you before." You shrug. "Just got to Seattle yesterday, been looking around since then."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -304,8 +793,8 @@
     </children>
   </item>
   <item nodeId="node-91">
-    <command xml:space="preserve">talk to sage about weather</command>
-    <result xml:space="preserve">"Is the weather always like this here?" you ask. "It seems like the only downside."&#x000A;&#x000A;Sage laughs. "It's not too bad, just takes some getting used to."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to Sage about seattle</command>
+    <result xml:space="preserve">"Are you from Seattle originally?" you ask.&#x000A;&#x000A;"Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring." Note to self: they're around your age.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -313,8 +802,8 @@
     </children>
   </item>
   <item nodeId="node-92">
-    <command xml:space="preserve">talk to sage about weather</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe...&#x000A;&#x000A;"What brings you to Seeds?" Her eyes are really pretty. You give a start. Stop staring! "I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself."&#x000A;&#x000A;"Oh shoot, I gotta go, I have an interview and I lost track of time!" She looks at you and grins. Your heart skips again. "Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!" Before you can say anything else, they run out the door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"> ask Sage about school</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe...&#x000A;&#x000A;After a moment of silence, Sage says, "I like your septum piercing!" You feel your face grow hot. "Thanks," you say, but nothing else comes to mind.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -322,131 +811,44 @@
     </children>
   </item>
   <item nodeId="node-93">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-44">
-    <command xml:space="preserve">Amanda H</command>
-    <result xml:space="preserve">It's okay, we're on a first name basis. What's just your first name?&#x000A;&#x000A;What is your name? &gt;</result>
+    <command xml:space="preserve">talk to Sage about the cafe</command>
+    <result xml:space="preserve">You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe...&#x000A;&#x000A;"If you're not used to it, the Seattle weather can be a bit dreary," Sage remarks.&#x000A;&#x000A;"Oh shoot, I gotta go, I have an interview and I lost track of time!" She looks at you and grins. Your heart skips again. "Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!" Before you can say anything else, they run out the door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-45"/>
+      <child nodeId="node-94"/>
     </children>
   </item>
-  <item nodeId="node-45">
-    <command xml:space="preserve">Amanda</command>
-    <result xml:space="preserve">Hi, Amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-46">
-    <command xml:space="preserve">amanda</command>
-    <result xml:space="preserve">Hi, amanda!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-94">
+    <command xml:space="preserve">get up</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-47"/>
+      <child nodeId="node-95"/>
     </children>
   </item>
-  <item nodeId="node-47">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-95">
+    <command xml:space="preserve">explore</command>
+    <result xml:space="preserve">I tried out a new place. It was fine, but nothing special. Maybe I'll go back to Seeds tomorrow.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-48"/>
+      <child nodeId="node-96"/>
     </children>
   </item>
-  <item nodeId="node-48">
-    <command xml:space="preserve">open bag</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-96">
+    <command xml:space="preserve">cafe</command>
+    <result xml:space="preserve">I walked by, but Sage wasn't working. I hope I didn't miss my only chance.&#x000A;&#x000A;It's a new day, full of possibility. Maybe I should go to the cafe and see if Sage is there. Or I could explore somewhere new.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-49"/>
+      <child nodeId="node-97"/>
     </children>
   </item>
-  <item nodeId="node-49">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You feel like maybe you should talk to Sage. I guess you really only have one option.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-50"/>
-    </children>
-  </item>
-  <item nodeId="node-50">
-    <command xml:space="preserve">talk to sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-51"/>
-    </children>
-  </item>
-  <item nodeId="node-51">
-    <command xml:space="preserve">talk to Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-52">
-    <command xml:space="preserve">am</command>
-    <result xml:space="preserve">Hi, am!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-53"/>
-    </children>
-  </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-54"/>
-    </children>
-  </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">talk Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-55">
-    <command xml:space="preserve">a</command>
-    <result xml:space="preserve">Hi, a!&#x000A;&#x000A;The Cafe&#x000A;An Interactive Fiction by Amanda Hua and Lane Bohrer&#x000A;Release 1 / Serial number 210123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see a counter (in which are pastries, sandwiches, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-56"/>
-    </children>
-  </item>
-  <item nodeId="node-56">
-    <command xml:space="preserve">sit table</command>
-    <result xml:space="preserve">You glance over at the counter before sitting down. You notice that the barista with the name tag "Sage" is kind of cute. As you're staring, they look up and you catch their eye, and they smile. Your face flushes.&#x000A;You sit down.&#x000A;&#x000A;The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-57"/>
-    </children>
-  </item>
-  <item nodeId="node-57">
-    <command xml:space="preserve">talk Sage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-58"/>
-    </children>
-  </item>
-  <item nodeId="node-58">
-    <command xml:space="preserve">talk table</command>
-    <result xml:space="preserve">"Hi, my name is a. I was wondering if I could join you?"&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-97">
+    <command xml:space="preserve">cafe</command>
+    <result xml:space="preserve">I've got a good feeling about today.&#x000A;&#x000A;Cafe&#x000A;A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say "go inside".&#x000A;&#x000A;There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired.&#x000A;&#x000A;There is a booth in the back of the room, its seats facing the table near the window. It is currently occupied by a teenager and a small child.&#x000A;&#x000A;You can also see Sage and a counter (in which are pastries, tea and iced coffee) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
