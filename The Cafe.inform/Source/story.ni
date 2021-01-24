@@ -211,5 +211,28 @@ Instead of returning for the second time:
 	now the player is in The Cafe;
 	now the player is excited;
 
-Date is a scene. Date begins when Wait ends.
+Date is a scene. Date begins when Wait ends. 
+Park is a room. A swingset is here. A quaint path is here.
 
+When Date begins:
+	say "Building up your courage, you ask Sage if she'd like to go out sometime. To your delight, she tells you that she gets off shift in a few minutes, and knows a park nearby.";
+	now player is in Park;
+	now Sage is in Park;
+
+Table of Date
+[c/p table here]
+
+
+Instead of asking Sage about a topic listed in the Table of Date: 
+	now Sage is passive; 
+	say "[reply entry][paragraph break]"; 
+	blank out the whole row.  
+
+Every turn during Date: 
+	if Sage is active: 
+		repeat through Table of Date: 
+			say "[quip entry][paragraph break]"; 
+			blank out the whole row; 
+			make no decision. 
+
+Every turn: now Sage is active. Date ends when the number of filled rows in the Table of Date is 0. When Date ends, say "Your phone pings, and you pull it out of your pocket. It's an email alert: you landed the big scholarship you applied to. It feels like all the pieces are falling into place. You smile and tell Sage, 'I think I've made my decision. Grad school sounds really good. And I can't turn down everything else about Seattle.' They reply, smiling, 'Well then, I've got a lot to show you.'"
