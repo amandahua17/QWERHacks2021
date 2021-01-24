@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 1025 words long.
+I've now read your source text, which is 1623 words long.
 
 
 -----------------------------------------------------
@@ -77,29 +77,105 @@ Phase X ... Tables and grammar
 Phase XI ... Phrases and rules
 -----------------------------------------------------
 
-Problem PM_BadRulePreamble issued from inform7/Chapter 28/Phrase Usage.w, line 489
-
-In Part 1 - The Cafe:
-
-
-  >--> You wrote 'if Conversation is happening, instead of doing anything
-    except with Sage' (source text, line 98): but the punctuation here ':'
-    makes me think this should be a definition of a phrase and it doesn't begin
-    as it should, with either 'To' (e.g. 'To flood the riverplain:'),
-    'Definition:', a name for a rule (e.g. 'This is the devilishly cunning
-    rule:'), 'At' plus a time (e.g. 'At 11:12 PM:' or 'At the time when the
-    clock chimes') or the name of a rulebook, possibly followed by some
-    description of the action or value to apply to (e.g. 'Instead of taking
-    something:' or 'Every turn:').
-
 
 
 -----------------------------------------------------
-Phase XII ... Compilation now complete
+Phase XII ... Code generation
 -----------------------------------------------------
 
-Total of 4 files written as streams.
-CPU time: 30 centiseconds
+
+
+==== Phase XII.1 ... Compiling the storage for the model world ====
+
+
+
+==== Phase XII.2 ... Compiling the tables ====
+
+
+
+==== Phase XII.3 ... Compiling the equations ====
+
+
+
+==== Phase XII.4 ... Compiling the named action patterns ====
+
+
+
+==== Phase XII.5 ... Compiling the action routines ====
+
+
+
+==== Phase XII.6 ... Compiling first block of phrases ====
+
+
+
+==== Phase XII.7 ... Compiling the rulebooks ====
+
+
+
+==== Phase XII.8 ... Compiling scene details ====
+
+
+
+==== Phase XII.9 ... CTNL ====
+
+
+
+==== Phase XII.10 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.11 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
+-----------------------------------------------------
+Phase XIII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 104 files written as streams.
+CPU time: 105 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

@@ -33,8 +33,10 @@ Part 1 - The Cafe
 
 The Cafe is a room. "A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say 'go inside'."
 
+Sage is a person in the Cafe.
+
 The player carries a backpack. The backpack is openable and closed. The backpack contains a laptop.
-A person can be confident, nervous, or embarrassed. The player is confident.
+A person can be confident, nervous, or embarrassed. A person can be active or passive. The player is confident.
 
 A table is here. "There is a table near the window. Plenty of sunlight, a decent amount of surface area for a laptop and papers, or to put your head down if you're tired."
 Instead of taking the table, say "You can't take a table..."
@@ -58,46 +60,85 @@ A counter is here. The counter contains pastries, sandwiches, tea, and iced coff
 Instead of taking counter, say "You can't take a counter."
  
 Instead of buying the tea:
-	now the player carries tea;
 	if the player is carrying tea or the player is carrying iced coffee:
-		say "You already bought a drink!";
+		say "You already bought a drink! This is gonna look a bit weird.";
+	now the player carries tea;
 	if the player is carrying pastries or the player is carrying sandwiches:
 		say "That desperate to talk to them? Okay then. You buy a drink as well.";
 	if the player is not carrying pastries and the player is not carrying sandwiches:
 		say "You go up to the counter and buy a drink. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
 Instead of buying the iced coffee:
-	now the player carries iced coffee;
 	if the player is carrying tea or the player is carrying iced coffee:
-		say "You already bought a drink!";
+		say "You already bought a drink! This is gonna look a bit weird.";
+	now the player carries iced coffee;
 	if the player is carrying pastries or the player is carrying sandwiches:
 		say "That desperate to talk to them? Okay then. You buy a drink as well.";
 	if the player is not carrying pastries and the player is not carrying sandwiches:
 		say "You go up to the counter and buy a drink. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
 Instead of buying pastries:
-	now the player carries pastries;
 	if the player is carrying pastries or the player is carrying sandwiches:
-		say "You already bought food!";
+		say "You already bought food! This is gonna look a bit weird.";
+	now the player carries pastries;
 	if the player is carrying tea or the player is carrying iced coffee:
 		say "That desperate to talk to them? Okay then. You buy a pastry as well.";
 	if the player is not carrying tea and the player is not carrying iced coffee:
 		say "You go up to the counter and buy a pastry. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
 Instead of buying sandwiches:
-	now the player carries sandwiches;
 	if the player is carrying pastries or the player is carrying sandwiches:
-		say "You already bought food!";
+		say "You already bought food! This is gonna look a bit weird.";
+	now the player carries sandwiches;
 	if the player is carrying tea or the player is carrying iced coffee:
 		say "That desperate to talk to them? Okay then. You buy a sandwich as well.";
 	if the player is not carrying tea and the player is not carrying iced coffee:
 		say "You go up to the counter and buy a sandwich. The barista with a nametag that says 'Sage' smiles at you. You notice their grin is kinda cute."
 
-Conversation is a scene. Conversation begins when the player is embarrassed. When Conversation begins, say "The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. The way you see it, you have two options: talk to Sage, or continue staring at your screen with no progress.";
+Talking it about is an action applying to one thing and one topic.
+Understand "talk to [someone] about [text]" or "talk [someone] about [text]" as talking it about.
+A scene can be restricted or free. 
+Instead of doing anything except talking or telling when a restricted scene is happening: 
+	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. Here are some topics that come to mind: gay, weather, job, cafe..."
+	
+[Instead of talking when a restricted scene is happening:
+	say "'Hi, my name is [player's name]. I was wondering if I could join you?'"]
 
-if Conversation is happening, 
-	instead of doing anything except with Sage:
-		say "You really only have two options here: stare at your screen, or talk to Sage."
+Conversation is a restricted scene. Conversation begins when the player is embarrassed. When Conversation begins, say "The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. 'Mind if I sit with you?' They look up and smile. Your heart flips in anticipation. 'Sure! I'm not going anywhere.'"
+
+Table of Conversation 
+topic	reply	quip
+"day/cafe/what's up"	"'So how's your day going? Did you just get off shift?' 'Yep! I have about half an hour to kill before another engagement. The day's been up and down, customer-wise, so I'm getting off my feet for a bit.' The word 'engagement' makes your heart jump a little. "	"'You new around here? I don’t think I've seen you before.' You shrug. 'Just got to Seattle yesterday, been looking around since then.'"
+"gay/queer/pronouns"	"'So,' you say. 'This might be a bit forward, but what are your pronouns? And are you gay?' The last part slips out before you can stop yourself. You flush. 'I, er,' they say. 'I use she/they pronouns, thanks for asking!' They smile at you. 'And yes, I listen to Girl in Red. What gave it away? Was it the giant dangly earrings?' You laugh. 'No, just the bangs and blue hair.'"	"After a moment of silence, Sage says, 'I like your septum piercing!' You feel your face grow hot. 'Thanks,' you say, but nothing else comes to mind."
+"location"	"'Are you from Seattle originally?’ you ask.
+
+‘Nope, I used to live in St. Louis, but I moved to Seattle for school and have been here since I graduated, last spring.' Note to self: they're around your age."	"'What brings you to Seeds?' Her eyes are really pretty. You give a start. Stop staring! 'I am actually here to check out UW. I got into the CS Masters program, but I also have a job offer in New York, so I thought it would be a good idea to check out the locations for myself.'" 
+"weather/rain/cold"	"'Is the weather always like this here?' you ask. 'It seems like the only downside.'
+
+Sage laughs. 'It's not too bad, just takes some getting used to.'"	"'If you're not used to it, the Seattle weather can be a bit dreary,' Sage remarks."
+
+
+Instead of telling Sage about something: try asking the noun about it. 
+Instead of talking Sage about something: try asking the noun about it. 
+
+Instead of asking Sage about a topic listed in the Table of Conversation: 
+	now Sage is passive; 
+	say "[reply entry][paragraph break]"; 
+	blank out the whole row.  
+
+Conversation ends when the number of filled rows in the Table of Conversation is 0. When Conversation ends, say "'Oh shoot, I gotta go, I have an interview and I lost track of time!' She looks at you and grins. Your heart skips again. 'Well, it was lovely to meet you! I'm sure we'll meet again. Good luck with your decision!' Before you can say anything else, they run out the door."
+
+Every turn during Conversation: 
+	if Sage is active: 
+		repeat through Table of Conversation: 
+			say "[quip entry][paragraph break]"; 
+			blank out the whole row; 
+			make no decision. 
+
+Every turn: now Sage is active. 
+
+
+[Every turn during Conversation, instead of doing anything except talking with laptop, say "You really only have two options here: stare at your screen, or talk to Sage."]
 
 Inside from the Cafe is the All Gender Bathroom.	[right now, command is go inside] 
 A mirror is in the bathroom.
@@ -110,4 +151,10 @@ The Cafe is a direction. The opposite of the Cafe is the bathroom. ]
 
 Part 2 - At Home
 
-Part 3 - Searching for Sammm
+Apartment is a scene. Apartment begins when Conversation ends.
+
+[Apartment scene can be used to explore the apartment. Conversation2 starts when exploring ends.]
+
+
+Part 3 - Searching for Sage
+
