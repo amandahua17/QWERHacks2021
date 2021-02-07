@@ -275,10 +275,10 @@ topic	reply	quip
 
 ‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
 	
-[TODO: Figure out why park heading isn't working]
+[TODO: Figure out why park heading isn't working
 Instead of doing anything except talking or telling when Date is happening except during first turn: 
 	if Sage is passive: 
-		say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"
+		say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"]
 	
 Instead of telling Sage about something: try asking the noun about it. 
 Instead of talking Sage about something: try asking the noun about it. 
