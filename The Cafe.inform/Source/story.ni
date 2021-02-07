@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 "The Cafe" by Amanda Hua and Lane Bohrer.
 Built (mostly) in 48 hours for QWERHacks 2021.
+=======
+"Seeds Cafe" by Amanda Hua and Lane Bohrer
+
+The story title is "Seeds Cafe". 
+The story author is "Amanda Hua and Lane Bohrer". 
+The story headline is "An Interactive Romance". 
+The story genre is "Romance". 
+The release number is 1. 
+The story description is "Welcome to the Seeds Cafe! This text-based adventure game is about a short meet cute between two queer characters - Sage, the cute barista, and you! ". 
+The story creation year is 2021. 
+[Release along with cover art, a website.]
+Release along with a website and an interpreter.
+>>>>>>> 05513d39a198c31dbda0ca7878486c93c0c6ed4d
 
 Part 0 - You
 
@@ -32,7 +46,7 @@ Rule for constructing the status line when collecting names: do nothing.
 
 Part 1 - The Cafe
 
-The Seeds Cafe is a room. "A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say 'go inside'."
+The Seeds Cafe is a room. "A barista stands humming behind the counter. Above the worker are three wooden panels showing the menu. There is an all gender bathroom next to the counter. To go to the bathroom, say 'go inside'. If you're ever at a loss as to what to do, try typing 'help'."
 
 Sage is a person in the Seeds Cafe.
 
@@ -53,6 +67,9 @@ A booth is here. "There is a booth in the back of the room, its seats facing the
 Instead of taking the booth, say "You can't take a booth..."
 Instead of sitting the booth, say "There are people there! You can't sit on them."
 
+Understand "help" as asking for help. 
+Asking for help is an action applying to nothing.
+Instead of asking for help, say "The cafe has a couple things you could do - try [bold type] sit[roman type]ting at the table, or [bold type] buy[roman type]ing something from the counter." 
 [Buying is an action applying to one thing.
 Understand "buy [something]" as buying.]
 
@@ -110,6 +127,9 @@ Conversation is a restricted scene. Conversation begins when the player is embar
 Instead of doing anything except talking or telling when a Conversation is happening: 
 	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being [bold type]gay[roman type], the [bold type]weather[roman type], [bold type]Seattle[roman type], the [bold type]cafe[roman type]... (just say 'talk to Sage about [bold type]topic[roman type]')".
 
+Instead of asking for help when a Conversation is happening,
+	say "You worked up the courage to talk to Sage - try [bold type] talk[roman type]ing to them about something!" 
+
 Table of Conversation 
 topic	reply	quip
 "day/cafe" or "what's up"	"'So how's your day going? Did you just get off shift?' 'Yep! I have about half an hour to kill before another engagement. The day's been up and down, customer-wise, so I'm getting off my feet for a bit.' The word 'engagement' makes your heart jump a little. "	"'You new around here? I don’t think I've seen you before.' You shrug. 'Just got to Seattle yesterday, been looking around since then.'"
@@ -163,9 +183,12 @@ A desk is here.
 A spinny chair is here. 
 A dresser is here. 
 
-Apartment is a scene. Apartment begins when Conversation ends. When Apartment begins, now the player is in the bedroom.
+Apartment is a scene. Apartment begins when Conversation ends. When Apartment begins, now the player is in the bedroom. Apartment ends when the player is ready to talk.
 your closet is in bedroom.
 A shoe rack is in your closet.
+
+Instead of asking for help when Apartment is happening, 
+	say "You're in your apartment - try to [bold type]start conversation with[roman type] your roommate, [bold type]Nik. [roman type]" 
 
 Instead of going your closet: try going inside. 
 Instead of going inside when Apartment is happening: say "What would I want to go back in there for? Just kidding, but I've got all the clothes I need at the moment."
@@ -200,6 +223,9 @@ Conversation2 is a restricted scene. Conversation2 begins when the player is rea
 Instead of doing anything except talking or telling when a Conversation2 is happening: 
 	say "Maybe you should ask Nik about something? They are pretty talkative, though, so maybe they'll talk on their own. You could ask them about the cute person you met today, or their day, or your interview..."
 
+Instead of asking for help when Conversation2 is happening,
+	say "You're in a conversation with Nik right now - try [bold type] talk[roman type]ing to them about something!" 
+	
 Starting conversation is an action applying to one thing.
 Understand "start conversation with [someone]" or  "start a conversation" or "start the conversation" or "talk to [someone]" or "start conversation" as starting conversation.
 Instead of starting conversation:
@@ -252,6 +278,10 @@ Instead of returning for the second time:
 	Sure enough, you see Sage standing at the counter, their smile lighting up the room.";
 	[now the player is in The Cafe;]
 	now the player is excited;
+	
+
+Instead of asking for help when Wait is happening,
+	say "You have a couple options... try [bold type] go[roman type]ing to the [bold type]cafe[roman type], or [bold type] explore [roman type] somewhere new." 
 
 Date is a scene. Date begins when Wait ends.
 
@@ -263,6 +293,8 @@ When Date begins:
 	
 Park is a room. A quaint path is here. "You walk a couple minutes and come to a small park. Sage leads you onto a quaint path, and you walk together. It's quiet. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their [bold type]family[roman type], [bold type]future[roman type], [bold type]coming out[roman type] experience, or [bold type]astrology[roman type]?"
 
+Instead of asking for help when Date is happening,
+	say "You're finally on a date with Sage! Try [bold type]talk[roman type]ing to them about something." 
 
 Table of Date
 topic	reply	quip
