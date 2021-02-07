@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-"The Cafe" by Amanda Hua and Lane Bohrer.
-Built (mostly) in 48 hours for QWERHacks 2021.
-=======
-"Seeds Cafe" by Amanda Hua and Lane Bohrer
+"Seeds Cafe" by Amanda Hua and Lane Bohrer.
 
 The story title is "Seeds Cafe". 
 The story author is "Amanda Hua and Lane Bohrer". 
-The story headline is "An Interactive Romance". 
+The story headline is "An Interactive Romance built (mostly) in 48 hours for QWERHacks 2021". 
 The story genre is "Romance". 
 The release number is 1. 
 The story description is "Welcome to the Seeds Cafe! This text-based adventure game is about a short meet cute between two queer characters - Sage, the cute barista, and you! ". 
 The story creation year is 2021. 
 [Release along with cover art, a website.]
 Release along with a website and an interpreter.
->>>>>>> 05513d39a198c31dbda0ca7878486c93c0c6ed4d
 
 Part 0 - You
 
