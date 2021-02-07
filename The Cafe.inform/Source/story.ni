@@ -107,7 +107,7 @@ A scene can be restricted or free.
 Conversation is a restricted scene. Conversation begins when the player is embarrassed. When Conversation begins, say "The people in the booth behind you stand up to leave. You wish they had done that before you sat down, but now it would look weird if you rushed over to the booth, so you decide to stay where you are. The cute barista you were staring at takes off their apron and walks over to the booth with a drink. Looks like they're on break. Something compels you go talk to them. Maybe the color of their eyes? You stand up and walk over to the booth. 'Mind if I sit with you?' They look up and smile. Your heart flips in anticipation. 'Sure! I'm not going anywhere.'"
 
 Instead of doing anything except talking or telling when a Conversation is happening: 
-	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, job, the cafe..."
+	say "You feel like maybe you should talk to Sage. You did sit down with them, after all. I could talk about: being gay, weather, Seattle, the cafe..."
 
 Table of Conversation 
 topic	reply	quip
@@ -156,7 +156,7 @@ Part 2 - At Home
 
 A person can be ready to talk or not ready to talk. The player is not ready to talk.
 
-Bedroom is a room. "You stand in your bedroom. Your roommate, Nik, is lying on your covers, fidgeting with something in their hands. Maybe you should talk to them about the girl you met at the cafe? Or about your interview? A lot has happened today."
+Bedroom - as Sage is a room. "You stand in your bedroom. Your roommate, Nik, is lying on your covers, fidgeting with something in their hands. Maybe you should talk to them about the person you met at the cafe? Or about your interview? A lot has happened today. You should start a conversation."
 A bed is here. 
 A desk is here. 
 A spinny chair is here. 
@@ -173,11 +173,11 @@ Nik is a person in the bedroom.
 
 Table of Roommate
 topic	reply	quip
-"new person" or "cute person"	"‘So, I met this person today at the cafe… they’re really sweet, and totally my type. And get this - they’re possibly going to UW for grad school!’ Nik looks up, startled. ‘Really? I bet your mind is going out of control planning your wedding already!’ You snort. ‘Just because we might be going to the same school and I think they’re cute doesn’t mean we’re soulmates. Still… the UW CS program is really good. Doesn’t hurt to have someone with shared interests.’"	"‘Oh come on.’ Nik is staring at you. ‘I know you only have that look when something interesting has happened. Spill!’
+"cute person" or "new person"	"‘So, I met this person today at the cafe… they’re really sweet, and totally my type. And get this - they’re possibly going to UW for grad school!’ Nik looks up, startled. ‘Really? I bet your mind is going out of control planning your wedding already!’ You snort. ‘Just because we might be going to the same school and I think they’re cute doesn’t mean we’re soulmates. Still… the UW CS program is really good. Doesn’t hurt to have someone with shared interests.’"	"‘Oh come on.’ Nik is staring at you. ‘I know you only have that look when something interesting has happened. Spill!’
 
 You sigh. ‘I met this really cute person at the cafe today… and-they-might-be-going-to-grad-school-at-UW!’ The last part all comes out at once. Nik raises his eyebrows. ‘Not too shabby. Sounds like a perfect person for a date?’ They smirk at their last comment."
-"their day" or "what's new"	"‘What’s up with you? Any new adventures?’ Nik sighs. ‘Not really, Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’"	"Nik sighs. ‘Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’ He narrows his eyes at you. ‘I’ll be your wingperson, but only if I happen to be free.’ They stick out their tongue and sigh again."
-"advice/anticipation/excitement" or "first date"	"‘I really hope this person comes back to the cafe, they seem so easy to talk to!’ Nik looks at you, smirking again. ‘I hope it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’"	"Nik looks at you, smirking again. ‘Well anyway, I hope this new person you’re brooding over asks you on a date and it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’
+"their day" or "what's new" or "what's up"	"‘What’s up with you? Any new adventures?’ Nik sighs. ‘Not really, Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’"	"Nik sighs. ‘Alice wants to go to this backyard concert tomorrow but Cal wants to stay in and watch a movie. Not quite sure what to pick, but maybe they’ll work it out among themselves and I won’t have to decide.’ I shake my head. ‘Well, while you’re waiting for their decision you can come visit me at the cafe on my next shift, keep me some company and keep an eye out for the cute person I saw today!’ He narrows his eyes at you. ‘I’ll be your wingperson, but only if I happen to be free.’ They stick out their tongue and sigh again."
+"advice/anticipation/excitement/nervous" or "first date"	"‘I really hope this person comes back to the cafe, they seem so easy to talk to!’ Nik looks at you, smirking again. ‘I hope it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’"	"Nik looks at you, smirking again. ‘Well anyway, I hope this new person you’re brooding over asks you on a date and it goes as well as the last first date you were on. Didn’t you steal their keys?’ You turn on him. ‘I did nothing of the sort! Also, he wanted to go on the date with me!’ ‘Yes, yes, I know. Pretended to know about Japanese food to impress you just because he wanted to go on a date with you. And your regular boba place barista put heart stickers on your drinks, very cheesy, but very cute, I will admit.’ You huff, a little annoyed. ‘Talk about cheesy, huh? What about the time you ran 20 miles to spell out a message asking that girl to go to Pride with you?’ Nik grins. ‘See, I know that’s cute, and that’s the difference.’
 "
 "interview"	"‘So the interview today went well. I still think I might want to go to grad school though… That person today and UW’s CS program. A lot to think about.’ Nik looks at you out of the corner of their eye. ‘Just make sure you don’t make a decision based on a person you haven’t even gone on a date with yet.’ ‘I know! I know...’"	"‘So how was the interview?’, Nik asks, throwing the fidget cube up in the air. ‘Oh, it was good. I still think I might want to go to grad school though… That person today and UW’s CS program. A lot to think about.’ Nik looks at you out of the corner of their eye. ‘Just make sure you don’t make a decision based on a person you haven’t even gone on a date with yet.’ ‘I know! I know...’"
 
@@ -200,7 +200,7 @@ Instead of doing anything except talking or telling when a Conversation2 is happ
 	say "Maybe you should ask Nik about something? They are pretty talkative, though, so maybe they'll talk on their own. You could ask them about the cute person you met today, or their day, or your interview..."
 
 Starting conversation is an action applying to one thing.
-Understand "start conversation with [someone]" as starting conversation.
+Understand "start conversation with [someone]" or  "start a conversation" or "start the conversation" or "talk to [someone]" as starting conversation.
 Instead of starting conversation:
 	now the player is ready to talk.
 
@@ -227,8 +227,9 @@ Every turn during Conversation2: now Nik is active. Conversation2 ends when the 
 
 Part 3 - Searching for Sage
 
-Intermission is a room.
-Wait is a scene. Wait begins when Conversation2 [will change to Conversation2] ends. When Wait begins, now the player is in Intermission.
+At Home - as You is a room.
+Wait is a scene. Wait begins when Conversation2 [will change to Conversation2] ends. 
+When Wait begins, now the player is in At Home.
 
 Wait ends when the player is excited. 
 
@@ -251,19 +252,21 @@ Instead of returning for the second time:
 	[now the player is in The Cafe;]
 	now the player is excited;
 
-Date is a scene. Date begins when Wait ends. 
-Park is a room. A swingset is here. A quaint path is here.
+Date is a scene. Date begins when Wait ends.
 
 When Date begins:
 	say "Building up your courage, you ask Sage if she'd like to go out sometime. To your delight, she tells you that she gets off shift in a few minutes, and knows a park nearby.";
 	now player is in Park;
 	now Sage is in Park;
 	now Sage is passive.
+	
+Park is a room. A quaint path is here. "You walk a couple minutes and come to a small park. Sage leads you onto a quaint path, and you walk together. It's quiet. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"
+
 
 Table of Date
 topic	reply	quip
 "family/childhood"	"‘You said you grew up in St. Louis? Do you have any siblings?’ ‘Yeah, I’m actually a triplet. My parents got two gays out of it - and we bully our token straight at every chance’"	"‘Not feeling talkative? That’s okay. We can just walk around the park quietly for a bit’"
-"goals/job/career/school/future"	"‘What does the future hold for you? Any grand visions?’ You ask. ‘I’m hoping to move into tech, which is why I recognized that rainbow Github sticker on your laptop.’ You almost laughed, it was a joke gift from a high school friend. ‘So I’m saving up for grad school and taking some online classes.’"	"‘Here, I’ll tell a story. My prom night was a wild ride. I really wanted a gay prom, but I was closeted at the time and my parents were so excited to see me go with a nice boy. So I took prom photos with a friend of mine, and then as soon as my mom left, we all shuffled around and I got to spend my prom night with my girlfriend at the time. It was great.’ We drift into silence for a minute, admiring nature as we walk. Eventually, you break the silence."
+"goals/job/career/school/future"	"‘What does the future hold for you? Any grand visions?’ You ask. ‘I’m hoping to move into tech, which is why I recognized that rainbow Github sticker on your laptop.’ You laugh, it was a gift from a high school friend. ‘So I’m saving up for grad school and taking some online classes.’"	"‘Here, I’ll tell a story. My prom night was a wild ride. I really wanted a gay prom, but I was closeted at the time and my parents were so excited to see me go with a nice boy. So I took prom photos with a friend of mine, and then as soon as my mom left, we all shuffled around and I got to spend my prom night with my girlfriend at the time. It was great.’ We drift into silence for a minute, admiring nature as we walk. Eventually, you break the silence."
 "come out" or "coming out" or "support"	"‘Was your family supportive when you came out?’
 
 ‘Y’know, I was the first gay person that my parents knew. I grew up pretty religious, and they weren’t exactly prepared for all this.’ They gestured vaguely. ‘But they just needed some time. We’re on pretty good terms these days.’"	"‘We got so lucky with the weather today - it’s so rarely this sunny. Any other day, you’d be the hottest thing in sight.’ The compliment was unexpected, but welcome."
@@ -275,8 +278,10 @@ topic	reply	quip
 
 ‘It’s a great queer unifier’"	"As you walk, their hand brushes up against yours. Once you get your breathing back under control, you reach out and took her hand."
 	
-[TODO: Figure out why park heading isn't working
-Instead of doing anything except talking or telling when Date is happening except during first turn: 
+
+[TODO: Figure out why park heading isn't working]
+[Instead of doing anything except talking or telling when Date is happening [except during first turn]: 
+
 	if Sage is passive: 
 		say "It's quiet for a moment. Maybe you should say something? Or maybe Sage will break the silence for you. You think about what gays talk about on a first date. Maybe you could ask about their family, future, coming out experience, or astrology?"]
 	
