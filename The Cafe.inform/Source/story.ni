@@ -7,6 +7,8 @@ The story genre is "Romance".
 The release number is 1. 
 The story description is "Welcome to the Seeds Cafe! This text-based adventure game is about a short meet cute between two queer characters - Sage, the cute barista, and you! ". 
 The story creation year is 2021. 
+[Release along with cover art, a website.]
+Release along with a website and an interpreter.
 
 Part 0 - You
 
